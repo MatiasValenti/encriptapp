@@ -49,6 +49,7 @@ let figure = document.createElement('figure');
 let img = document.createElement('img')
 img.setAttribute('src', './img/Muñeco.svg')
 img.setAttribute('alt', 'not found image')
+img.classList.add('not-found')
 figure.appendChild(img);
 textConteiner.appendChild(figure);
 let h3 = document.createElement('h3');
